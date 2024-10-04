@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        m=prompt(`Enter the value of m`)
+        n=prompt(`Enter the value of n`)
+        let a=1
+        if(m>n){
+            console.log(1)
+        }
+        else if(m==n){
+            console.log(m)
+        }
+        else{
+            for(let i=m;i<n;i++){
+            if(i%2!=0){
+                a=a*i
+            }
+        }
+        console.log(a)
+    }
+    </script>
+</body>
+</html>
